@@ -69,7 +69,7 @@
 }
 
 #promocional {
-    padding: 60px 60px;
+    padding: 60px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -88,6 +88,16 @@
     font-size: 15px;
     margin: 150px 50px;
     text-transform: uppercase;
+}
+
+.beneficios{
+    margin: 100px 300px;
+}
+
+.beneficios-list{
+    background-color: #0d65d8;
+    padding: 110px 80px;
+    color: white;
 }
 
 
