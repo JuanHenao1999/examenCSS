@@ -69,9 +69,13 @@
 }
 
 #promocional {
-    padding: 60px 150px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    padding: 50px, 50px;
+}
+
+.container-promocional{
+    margin-left: 150px;
 }
 
 .title-promocional {
@@ -91,7 +95,7 @@
 }
 
 .beneficios{
-    margin: 100px 300px;
+    margin: 100px 100px;
 }
 
 .beneficios-list{
@@ -100,75 +104,132 @@
     color: white;
 }
 
+.title-destinos {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
 
-#personas {
-    padding: 50px 50px;
+#destinos {
+    width: 100%;
+    margin-bottom: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+#destinos img {
+    height: 250px;
+    width: 250px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
     text-align: center;
 }
-#personas img {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-}
 
-#personas div{
-    padding: 30px 30px;
-}
-
-#personas div h4 {
-    color: #1f2732;
-    font-size: 20px;
-    margin: 14px 0px;
-}
-
-#personas div p {
-    color: #1f2732;
-    font-size: 18px;
-}
-
-.boton-saber-mas{
-    display: inline-block;
-    color: #84cd6a;
-    padding: 10px 30px;
-    border: 3px solid #84cd6a;
-    margin-top: 15px;
-    border-radius: 30px;
-    transition: all 0.4s;
-}
-
-.boton-saber-mas:hover{
-    background-color: #84cd6a;
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
     color: white;
 }
 
-#iconos {
-    padding: 0px 50px;
-    background-color: rgba(77, 77, 77, 0.6);
+.reservar-vuelo-destino{
+    color: white;
+    border: 1px solid #0d65d8;
+    background-color: #0d65d8;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 40px;
+    align-self: center;
+    margin-top: 170px;
+    transition: all 0.4s;
+    margin-left: 555px;
 }
 
-.contenido-iconos{
+#inscripcion{
+    margin-top: 120px;
+    width: 100%;
+    background-color: #0d65d8;
+}
+
+.container-inscripcion{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-inscripcion img {
+    margin-left: 80px;
+    width: 600px;
+    height: 100%;
+    background-size: cover;
+}
+
+.contenido-inscripcion {
+    margin: 150px;
+}
+
+.contenido-inscripcion h3{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.contenido-inscripcion p {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.Inscribete {
+    color:  #0d65d8;
+    border: 1px solid white;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 40px;
+    transition: all 0.4s;
+}
+
+#pasajeros {
+    padding: 0px 50px;
+    background-color: rgba(122, 122, 122, 0.158);
+}
+
+#pasajeros h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contenido-pasajeros{
     padding: 50px 50px 0 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.contenido-iconos div {
+.contenido-pasajeros div {
     flex: 1;
     margin: 20px 0px;
     border-right: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.contenido-iconos div h6{
+.contenido-pasajeros div h6{
     color: white;
     font-size: 20px;
     font-weight: 100;
     margin: 10px 0px;
 }
 
-.contenido-iconos div p{
+.contenido-pasajeros div p{
     color: rgba(255, 255, 255, 0.55);
     font-size: 15px;
 }
