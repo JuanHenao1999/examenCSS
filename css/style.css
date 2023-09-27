@@ -1,366 +1,368 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,700;0,800;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,700;0,800;1,300&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-.logo{
-    padding-top: 60px;
-    text-transform: capitalize;
-    color: white;
-    font-style: italic;
+.logo {
+  padding-top: 60px;
+  text-transform: capitalize;
+  color: white;
+  font-style: italic;
 }
 
-#banner{
-    padding: 0 50px;
-    background-image: url(../src/imagen1.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+#banner {
+  padding: 0 50px;
+  background-image: url(../src/imagen1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
-#banner::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    left: 0;
+#banner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  left: 0;
 }
 
 .container {
-    position: relative;
-    color: white;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  position: relative;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title-principal {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .container h3 {
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
 }
 
-
-.reservar-vuelo{
-    color: white;
-    border: 1px solid #0d65d8;
-    background-color: #0d65d8;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 10px 40px;
-    align-self: center;
-    margin-top: 170px;
-    transition: all 0.4s;
+.reservar-vuelo {
+  color: white;
+  border: 1px solid #0d65d8;
+  background-color: #0d65d8;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 40px;
+  align-self: center;
+  margin-top: 170px;
+  transition: all 0.4s;
 }
 
 .reservar-vuelo:hover {
-    background-color: #2d78da;
+  background-color: #2d78da;
 }
 
 #promocional {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.container-promocional{
-    margin-left: 150px;
+.container-promocional {
+  margin-left: 150px;
 }
 
 .title-promocional {
-    font-size: 50px;
-    margin: 40px 50px;
+  font-size: 50px;
+  margin: 40px 50px;
 }
 
 .p-promocional {
-    font-size: 20px;
-    margin: 40px 50px;
+  font-size: 20px;
+  margin: 40px 50px;
 }
 
 .condiciones {
-    font-size: 15px;
-    margin: 150px 50px;
-    text-transform: uppercase;
+  font-size: 15px;
+  margin: 150px 50px;
+  text-transform: uppercase;
 }
 
-.beneficios{
-    margin: 100px 100px;
+.beneficios {
+  margin: 100px 100px;
 }
 
-.beneficios-list{
-    background-color: #0d65d8;
-    padding: 110px 80px;
-    color: white;
+.beneficios-list {
+  background-color: #0d65d8;
+  padding: 110px 80px;
+  color: white;
 }
 
 .title-destinos {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 100px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 #destinos {
-    width: 100%;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    cursor: pointer;
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
 
 #destinos img {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
 
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    color: white;
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
 }
 
-.contenedor-btn{
-    text-align: center;
+.contenedor-btn {
+  text-align: center;
 }
 
-.reservar-vuelo-destino{
-    margin: 0 auto;
-    color: white;
-    border: 1px solid #0d65d8;
-    background-color: #0d65d8;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 10px 40px;
+.reservar-vuelo-destino {
+  margin: 0 auto;
+  color: white;
+  border: 1px solid #0d65d8;
+  background-color: #0d65d8;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 40px;
 }
 
-#inscripcion{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    background-color: #0d65d8;
+#inscripcion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: #0d65d8;
 }
 
-.container-inscripcion{
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
+.container-inscripcion {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
 }
 
 .container-inscripcion img {
-    margin-left: 80px;
-    width: 80vh;
-    height: 100vh;
+  margin-left: 80px;
+  width: 80vh;
+  height: 100vh;
 }
 
-.contenido-inscripcion{
-    margin-right: 400px;
-    margin-top: 150px;
+.contenido-inscripcion {
+  margin-right: 280px;
+  margin-top: 100px;
 }
 
-.contenido-inscripcion h3{
-    font-size: 50px;
-    color: white;
-    font-weight: 400;
+.contenido-inscripcion h3 {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
 }
 
 .contenido-inscripcion p {
-    color: white;
-    font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .Inscribete {
-    color:  #0d65d8;
-    border: 1px solid white;
-    background-color: white;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 10px 40px;
-    transition: all 0.4s;
+  color: #0d65d8;
+  border: 1px solid white;
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 40px;
+  transition: all 0.4s;
 }
 
 #pasajeros {
-    padding: 0px 50px;
-    background-color: rgba(122, 122, 122, 0.158);
+  padding: 0px 50px;
+  background-color: rgba(122, 122, 122, 0.068);
 }
 
-#pasajeros h2{
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
-    padding-top: 40px;
+#pasajeros h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 40px;
 }
 
-.contenido-pasajeros{
-    padding: 50px 50px 0 50px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.contenido-pasajeros {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.contenido-pasajeros div {
-    flex: 1;
-    margin: 20px 0px;
-    border-right: 2px solid rgba(255, 255, 255, 0.2);
+.carta-pasajero {
+  background-color: white;
+  color: black;
+  padding: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.contenido-pasajeros div h6{
-    color: white;
-    font-size: 20px;
-    font-weight: 100;
-    margin: 10px 0px;
+.carta-pasajero img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.contenido-pasajeros div p{
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 15px;
+.nombre-cargo {
+  color: #7f8183;
 }
 
-.boton-iconos{
-    text-align: center;
-    padding-bottom: 50px;
+#mision {
+  display: flex;
+  padding: 0 50px;
+  background-image: url(../src/imagen6.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
 }
 
-#contacto{
-    background: #84cd6a;
-    padding: 50px 0px;
-    color: white;
+.title-mision {
+  color: white;
+  font-size: 50px;
+  padding: 50px;
 }
 
-#contacto h4{
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
+.mision {
+  background-color: white;
+  font-size: 23px;
+  padding: 50px;
+  margin: 30px 40px 450px 20px;
 }
 
-#contacto form{
-    max-width: 80%;
-    margin: 0 auto;
+#contact {
+  padding: 0 50px;
+  background-color: white;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
 }
 
-.datos-form{
-    display: flex;
+.title-contact {
+  margin: 80px;
+  font-size: 30px;
+  color: #0d65d8;
+  font-style: italic;
 }
 
-.datos-form div{
-    padding: 10px;
-    flex: 1;
-}
-form label {
-    display: block;
-    margin-bottom: 10px;
+.ubicacion-contact {
+  margin: 0 60px;
+  display: flex;
 }
 
-form input, form textarea{
-    background: #84cd6a;
-    border-radius: 10px;
-    border: 2px solid #a8da88;
-    padding: 10px 5px;
-    outline: 0;
-    color: white;
-    width: 100%;
+.ubicaciones {
+  margin-left: 100px;
 }
 
-form input:focus, form textarea:focus{
-    border-color: #00a96d;
-    box-shadow: 0 0 0 1px#00a96d;
+.group-ubication {
+  display: flex;
+  grid-gap: 70px;
 }
 
-form input::placeholder, form textarea::placeholder{
-    color: white;
+.correo {
+  margin-left: 60px;
+  margin-top: 60px;
+  font-weight: 700;
 }
 
-.mensaje{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.boton-formulario .boton-saber-mas  {
-    display: block;
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-    transition: 0.4s;
-}
-
-.boton-formulario .boton-saber-mas:hover{
-    background-color: #a8da88;
-}
-
-footer{
-    background-color: #1f2732;
-    color: #84cd6a;
-    text-align: center;
-    padding: 10px;
-}
-
-@media(max-width:768px){
-    .mostrar-menu, .esconder-menu {
-        display: block;
-    }
-    .menu {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #1f2732;
-        right: -100%;
-        top: 0;
-        text-align: center;
-        padding: 100px 0px;
-        z-index: 100;
-        transition: 0.8s;
+@media (max-width: 768px) {
+    #promocional{
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .menu a {
-        display: block;
+    .container-promocional{
+        margin-left: 0;
+    }
+
+    .beneficios {
+        margin: 0 60px 80px;
+    }
+
+    #destinos{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .contenedor{
+        margin-bottom: 30px;
+    }
+
+    #inscripcion {
+        flex-direction: column;
+    }
+
+    .container-inscripcion img{
+        margin-left: 0;
+    }
+
+    .contenido-inscripcion{
+        margin: 0;
+        padding: 80px;
+    }
+
+    .Inscribete{
+        padding-bottom: -50px;
+    }
+
+    .contenido-pasajeros{
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+
+    #mision {
+        flex-direction: column;
         padding: 20px;
     }
 
-    .esconder-menu {
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }
-
-    #check:checked ~ .menu{
-        right: 0;
-    }
-
-    #personas {
+    .ubicacion-contact{
         flex-direction: column;
     }
 
-    .contenido-iconos{
-        flex-direction: column;
+    .ubicaciones{
+        margin: 20px 0px;
     }
 
-    .contenido-iconos div {
-        border: none;
+    .group-ubication{
+        flex-direction: column;
+        grid-gap: 10px;
     }
 
-    .datos-form{
-        flex-direction: column;
+    .correo {
+        margin: 0px 60px;
+        padding-bottom: 60px;
     }
 }
